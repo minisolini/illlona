@@ -1,0 +1,133 @@
+body{
+	font-family: 'Crimson Pro', serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 16px;
+}
+h1,h2,h3,h4{
+	font-weight: 900;
+}
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	border-top: 3px solid #dcd9de;
+	border-bottom: 3px solid #dcd9de;
+	padding: 14px 0; 
+	width: 800px;
+	margin: 0 auto;
+}
+h2{
+	font-size: 30px;
+}
+ h3{
+ 	color:#ff1100;
+ 	font-size: 15px;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	
+ }
+ h4{
+
+ }
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: #30697d url('../img/bg.jpg');
+	color: #fff;
+	padding-bottom: 426px;
+	padding-top: 90px;
+}
+.mail{
+     color: #fff;
+     text-decoration: none;
+     font-size: 14px; 
+}
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.offer{
+	margin-top: 60px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+.offer p{
+	font-size: 25px;
+	color: #a8c3ed;
+}
+.woman{
+	background:  url('../img/woman1.png') no-repeat center top;
+	width: 420px;
+	height: 583px;
+}
+.text{
+    width: 500px;
+    margin-top: 90px;
+}
+.text p{
+	color: #747d79;
+	line-height: 1.6em
+}
+.btn{
+	background:#0a12ff; 
+	color:#ffffff;
+	text-decoration: none;
+	width: 160px;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	margin-top: 60px
+}
+.about .container{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+
+}
+.about{
+	padding-top: 70px;
+}
+.process{
+	background: #67c981;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
+.heading{
+	text-align: center;
+}
+.heading p{
+color:#204a2b;
+margin-top: 20px;
+}
+.steps{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+
+}
+.steps li{
+	background:#c987bd;
+	width: 180px;
+	height: 180px;
+	color: #fff;
+	list-style-type: none;
+	text-align: center;
+	
+}
+.steps li div{
+	margin-top: 50px;
+}
+.steps li:nth-child(2){
+	background: #c468b3;
+}
+.steps li:nth-child(3){
+	background: #824978;
+}
+.steps li:nth-child(4){
+	background: #5c3c56;
+}
